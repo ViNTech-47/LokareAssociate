@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lokare Associate's</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+  <!-- Profile Header -->
+  <header class="profile-header text-center">
+    <div class="container">
+        <h1>Lokare Associate's</h1>
+        <p>Expert Tax & Accounting Solutions</p>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Icon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#about">About Us</a>
+                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#resources">Resources</a>
+                    <a class="nav-link" href="#clients">Clients</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">                   
+                <form class="d-flex">
+                    <input class="form-control me-2" style="width: 200px;" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary me-2" style="height: 38px;" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="about profile-section mt-5 container">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are a team of experienced Chartered Accountants offering expert tax and financial consulting services to individuals and businesses.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services profile-section mt-5 container">
+    <div class="container">
+        <h2>Our Servicese</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="skills-list">
+                    <li>Tax Planning and Compliance</li>
+                    <li>Audit and Assurance</li>
+                    <li>Business Consulting</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="skills-list">
+                    <li>GST Filing</li>
+                    <li>Financial Planning</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources" class="resources profile-section mt-5 container">
+    <div class="container">
+        <h2>Resources & Blogs</h2>
+        <p>Stay updated with the latest news and resources about accounting and tax filing. [Link to articles]</p>
+    </div>    
+  </section>
+
+  <!-- Blog and Projects Section -->
+  <section id="clients" class="profile-section mt-5 container">
+    <div class="container">
+        <h2>Clients</h2>
+        <p>In my blog, I share insights, tutorials, and my experience working on a variety of software projects. Here are a few of my recent posts and favorite projects:</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Recent Blog Posts:</h4>
+                <ul class="projects-list">
+                    <li>Building Scalable APIs with Node.js</li>
+                    <li>Introduction to Docker and Kubernetes</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Notable Projects:</h4>
+                <ul class="projects-list">
+                    <li>E-commerce platform built with the MERN stack</li>
+                    <li>Real-time data analytics mobile app in Python</li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="profile-section mt-5 container">
+    <div class="container">
+        <h2>Let’s Connect</h2>
+        <p>
+            Feel free to connect with me on <a href="#">What's App</a> or check out my <a href="#">GitHub</a> for more of my work. You can also reach me via email at <a href="#">mayuriblokare@gmail.com</a>.
+        </p>
+        <p>Email: techvin1995@gmail.com</p>
+        <p>Phone: +91 9769123874</p>
+        <form action="submit-form" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
